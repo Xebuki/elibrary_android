@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <GridView
+        android:id="@+id/mygridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="0dp"
+
+        android:background="@color/colorBackground"
+        android:columnWidth="200dp"
+
+        android:gravity="center|bottom"
+        android:numColumns="2"
+        android:stretchMode="spacingWidth"
+        android:verticalSpacing="10dp"
+        android:visibility="visible" />
+
+</FrameLayout>

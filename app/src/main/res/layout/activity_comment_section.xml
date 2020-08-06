@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/colorBackground"
+    tools:showIn="@layout/activity_comment_section"
+    tools:context=".CommentSection">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+
+            android:elevation="4dp"
+            android:theme="@style/AppTheme"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="@color/white" />
+
+        <EditText
+            android:id="@+id/comment_editText"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background="#3A3939"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/publish_comment_button"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorAccent"
+            android:text="Post comment" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="623dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#3A3939"
+            android:paddingTop="50dp">
+
+        </ListView>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+</RelativeLayout>

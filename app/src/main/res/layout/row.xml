@@ -1,0 +1,9 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/comment"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:textSize="15sp" >
+</TextView>
